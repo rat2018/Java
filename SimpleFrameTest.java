@@ -49,6 +49,7 @@ class SimpleFrame extends JFrame
 class ButtonFrame extends JFrame
 {
 	private JPanel buttonPanel;
+	private JButton baobao;
 	private static final int DEFAULT_WIDTH = 800;
 	private static final int DEFAULT_HEIGHT = 500;
 
@@ -56,7 +57,7 @@ class ButtonFrame extends JFrame
 	{
 		setSize(DEFAULT_WIDTH,DEFAULT_HEIGHT);
 		
-		JButton baobao = new JButton("love");
+		baobao = new JButton("love");
 
 		buttonPanel = new JPanel();
 
